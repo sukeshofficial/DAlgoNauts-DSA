@@ -23,5 +23,6 @@ public class IntegerHashing {
             // fetch
             System.out.println("Count of " + num + ": " + hash[num]);
         }
+        s.close();
     }
 }

@@ -18,5 +18,7 @@ public class CharHashing {
             // fetch
             System.out.println("Count of " + ch + ": " + hash[ch - (int)'a']);
         }
+
+        s.close();
     }
 }
