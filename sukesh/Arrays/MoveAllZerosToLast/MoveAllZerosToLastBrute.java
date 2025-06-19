@@ -48,5 +48,6 @@ public class MoveAllZerosToLastBrute {
 
         System.out.println("Before moving all zeros to end : " + Arrays.toString(arr));
         System.out.println("After moving all zeros to end  : " + Arrays.toString(moveZerosToEnd(arr, n)));
+        s.close();
     }
 }
